@@ -1,0 +1,398 @@
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-extralight {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-light {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-thin-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fira-sans-light-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fira-sans-regular-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fira-sans-medium-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fira-sans-bold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fira-sans-black-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* nav style */
+body {
+
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 180px;
+
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.btn-primary {
+  padding: 15px 30px;
+  color: rgba(0, 106, 80, 1);
+  border-radius: 8px;
+  border-color: rgba(0, 106, 80, 1);
+}
+
+/* 1st box style */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(198, 228, 214, 1);
+  margin: 20px 160px 80px 160px;
+  height: 600px;
+  border-radius: 24px;
+}
+
+.banner-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(14, 14, 14, 0.5);
+  margin-top: 116px;
+}
+
+.banner-description {
+  font-weight: bold;
+  font-size: 56px;
+  color: rgba(14, 14, 14, 1);
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.premier-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(0, 106, 80, 1);
+  padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+}
+
+.banner-content {
+  padding: 110px 55px 110px 90px;
+
+}
+
+.pic-dgn {
+  padding: 80px 60px 80px 64px;
+
+}
+
+/* card-box-style */
+.main-title {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-right: 160px;
+  margin-left: 160px;
+}
+
+/* card-box */
+.skill-container {
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+
+
+}
+.skill{
+  padding: 24px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.skill-title{
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.skill-description {
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.title-two{
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+.descriptipn-two{
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-top: 24px;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.two-container{
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+}
+/* .card-pad{ */
+  /* padding: 32px 32px; */
+/* } */
+.card-btn-pad{
+  margin-top: 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border: none;
+  padding: 11px 20px 11px 20px;
+}
+.second-title{
+  font-weight: bold;
+  font-size: 20px;
+  color: #0E0E0E;
+}
+.second-description{
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.card-one{
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 32px 32px;
+  border-radius: 16px;
+}
+.card-two{
+ background-color:rgba(198, 228, 214, 1);
+ padding: 32px 32px;
+ border-radius: 16px;
+}
+.card-three{
+ background-color:rgba(247, 235, 207, 1);
+ padding: 32px 32px;
+ border-radius: 16px;
+}
+.btn-one{
+  background-color: rgba(84, 144, 245, 1);
+}
+.btn-two{
+  background-color: rgba(9, 161, 92, 1);
+}
+.btn-three{
+  background-color: rgba(255, 194, 57, 1);
+}
+/* yousuf section */
+.yousuf-sec{
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-top: 32px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.yousuf-speach{
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  /* padding: ; */
+
+}
+.yousuf-cahir{
+  padding: 48px 24px 48px 24px;
+}
+.yousuf-name{
+  font-weight: 600;
+  font-size: 20px;
+}
+.chair-name{
+  font-weight: normal;
+  font-size: 16px ;
+  color: rgba(14, 14, 14, 0.8);
+}
+/* opinion-section */
+.opinion-title{
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 40px;
+}
+  
+.yousuf-TV{
+  margin-right: 160px;
+  margin-left: 160px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px  rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 1);
+}
+.yousuf-tb{
+  padding: 32px 32px;
+  border: .5px;
+}
+.opinion-heading{
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.chose-one{
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 1);
+  padding-top: 36.5px;
+  padding-bottom: 36.5px ;
+  padding-left: 24px;
+  padding-right: 347px ;
+}
+.for-color{
+  background-color:rgba(198, 228, 214, 1) ;
+  border-radius: 4px;
+}
+.map-jhok{
+  margin: 24px 24px;
+  padding: 12px 52px 16px 12px;
+  
+}
+/* three-card */
+.rong{
+  color: rgba(14, 14, 14, 0.7);
+}
+.mar{
+ margin-right: 160px;
+  margin-left: 160px;
+}
+.three-title{
+  font-weight: bold;
+  font-size: 40px;
+}
+.three-description{
+  font-weight: normal;
+  font-size: 16px;
+}
+.pic-style{
+  border-radius: 24px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+  /* padding-right: 32px; */
+}
+.satelite{
+  display: flex;
+  gap: 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+}
+.likha-title{
+  font-weight: bold;
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.cnl-logo{
+  margin-top:12px ;
+  margin-bottom:12px ;
+}
+
+ 

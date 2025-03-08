@@ -107,8 +107,9 @@
 }
 
 /* nav style */
-body {
 
+body {
+    background-color: rgba(241, 241, 243, 1);
   margin: 0 auto;
 }
 
@@ -462,4 +463,153 @@ nav {
   font-weight: 600px;
   font-size: 16px;
   color: white;
+}
+.satelite-two{
+  display: flex;
+  gap: 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  padding: 48px 48px;
+  margin-top: 24px;
+}
+.likha-title-two{
+  font-weight: bold;
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.likha-description-tw0{
+  font-weight: normal;
+  font-size: 16px;
+  color:rgba(14, 14, 14, 0.7);
+  margin-top: 5px;
+}
+.likha-somoy-two{
+  display: flex;
+  gap:10px ;
+  font-weight: normal;
+  font-size: 16px;
+  color:rgba(14, 14, 14, 0.7) ;
+  /* text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25); */
+  margin-top: 0 auto;
+}
+.donate{
+  margin-top: 80px;
+}
+.donate-title{
+  font-weight: bold;
+  font-size: 40px;
+}
+.donate-description{
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.donate-tk{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.money{
+  padding: 40px 40px;
+  border: none;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(14, 14, 14, 0.8);
+  background-color: rgba(255, 255, 255, 1);
+
+}
+.clr{
+  background-color: rgba(198, 228, 214, 1);
+}
+.amount{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+.silect{
+    font-size: 16px;
+    padding: 20px 422.5px 20px 422.5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    color: gray;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* subs-section */
+.sub-box{
+  text-align: center;
+  padding: 80px 256px 80px 256px;
+/* justify-content: center; */
+background-color: rgba(198, 228, 214, 1);
+border-radius: 24px;
+}
+.sub-title{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 16px;
+
+}
+.sub-description{
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+.mail{
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 403px;
+  padding-left: 40px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+}
+.info{
+  display: flex;
+  gap: 0;
+}
+.tip-dao{
+   padding: 17px 34px 17px 34px;
+   background-color: rgba(0, 106, 80, 1);
+   border-radius: 0px 5px 5px 0px;
+   border: none;
+   font-size: 18px;
+   font-weight: 600;
+   color: white;
+}
+.sub-end{
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 24px;
+}
+/* fotter */
+.sesh-line{
+  /* display: flex; */
+    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.sesh-dabba{
+ text-align: center;
+ padding: 50px 239px 50px 239px ;
+
+}
+.sesh-title{
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.dag{
+  background-color: rgba(14, 14, 14, 0.1);
+  font-weight: lighter;
+}
+.sesh-chobi{
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 9.27px;
 }
